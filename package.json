@@ -1,16 +1,13 @@
 {
-  "name": "tailwind-css-project",
+  "name": "razorpay-clone",
   "version": "1.0.0",
-  "description": "A Tailwind CSS project",
+  "description": "A Razorpay clone built with Tailwind CSS",
   "main": "index.html",
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "dev": "echo 'Development server not needed for static files'",
+    "build": "echo 'No build process needed for static files'"
   },
-  "keywords": ["tailwind", "css", "responsive"],
+  "keywords": ["tailwind", "css", "razorpay", "clone"],
   "author": "Your Name",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.3.0"
-  }
+  "license": "ISC"
 }
