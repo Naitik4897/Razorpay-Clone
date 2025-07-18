@@ -68,128 +68,154 @@
     <div class="relative overflow-x-hidden">
       <!--Navbar-->
       <nav class="bg-deepBlue">
-        <div class="relative w-[1080px] mx-auto flex items-center justify-between"
-        >
-          <!-- logo -->
-          <a href="/" class="cursor-pointer py-7 pr-7">
-            <img src="./images/logo.svg" width="125px" height="30px" alt="" />
-          </a>
-
-          <ul class="flex space-x-6">
-            <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
-            >
-              <a href="#">Payments</a>
-
-              <div
-                class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-              ></div>
-            </li>
-
-            <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
-            >
-              <a href="#">Banking</a>
-
-              <div
-                class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-              ></div>
-            </li>
-
-            <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
-            >
-              <a href="#">Corporate Card</a>
-            </li>
-
-            <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
-            >
-              <a href="#">Payroll</a>
-            </li>
-
-            <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
-            >
-              <a href="#">Resources</a>
-
-              <div
-                class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-              ></div>
-            </li>
-
-            <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
-            >
-              <a href="#">Support</a>
-
-              <div
-                class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-              ></div>
-            </li>
-
-            <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
-            >
-              <a href="#">Pricing</a>
-
-              <div
-                class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
-              ></div>
-            </li>
-          </ul>
-
-          <div class="flex space-x-6">
+        <div
+        class="w-11/12 mx-auto max-w-[1080px] relative flex justify-between items-center text-white font-mullish"
+      >
+        <!-- logo -->
+        <div class="pr-4 md:pr-7 py-4 md:py-7">
+          <a href="/" class="cursor-pointer">
             <img
-              src="./images/india-flag.svg"
-              width="28px"
-              height="20px"
-              class="hidden lg:block"
-              alt="India Flag"
+              src="./Images/logo.svg"
+              width="125px"
+              height="30px"
+              loading="lazy"
             />
-            <button
-              class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold"
-            >
-              Log in
-            </button>
-            <button
-              class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 hidden lg:flex items-center"
-            >
-              Sign Up
-              <svg
-                viewBox="0 0 24 24"
-                focusable="false"
-                class="w-[14px] h-[14px] ml-3"
-              >
-                <path
-                  fill="currentColor"
-                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                ></path>
-              </svg>
-            </button>
-          </div>
+          </a>
         </div>
+
+        <!-- Desktop Navlink  -->
+        <ul class="hidden lg:flex space-x-6 pr-7 items-stretch">
+          <li
+            class="py-7 hover:text-lightBlue group cursor-pointer transition-all duration-200 flex items-center relative"
+          >
+            <a href="#">Payments</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="py-7 hover:text-lightBlue group cursor-pointer transition-all duration-200 flex items-center relative"
+          >
+            <a href="#">Banking</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 flex items-center relative"
+          >
+            <a href="#">Corporate Card</a>
+          </li>
+          <li
+            class="py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 flex items-center relative"
+          >
+            <a href="#">Payroll</a>
+          </li>
+          <li
+            class="py-7 hover:text-lightBlue group cursor-pointer transition-all duration-200 flex items-center relative"
+          >
+            <a href="#">Resources</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="py-7 hover:text-lightBlue group cursor-pointer transition-all duration-200 flex items-center relative"
+          >
+            <a href="#">Support</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="py-7 hover:text-lightBlue group cursor-pointer transition-all duration-200 flex items-center relative"
+          >
+            <a href="#">Pricing</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+        </ul>
+
+        <!-- Desktop buttons  -->
+        <div class="hidden md:flex items-center space-x-3">
+          <!-- Login Button  -->
+          <button
+            class="py-3 px-5 border border-lightBlue text-sm font-bold rounded-sm"
+          >
+            Log in
+          </button>
+
+          <!-- Sign Up Button  -->
+          <button
+            class="flex justify-center items-center text-lightBlue300 bg-white text-sm py-3 px-4 rounded-sm font-bold border transition-all duration-200 hover:text-lightBlue500"
+          >
+            Sign Up
+            <svg
+              viewBox="0 0 24 24"
+              focusable="false"
+              class="w-[14px] h-[14px] ml-3"
+            >
+              <path
+                fill="currentColor"
+                d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-toggle" class="md:hidden p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="md:hidden hidden bg-deepBlue border-t border-gray-600">
+        <div class="px-4 pt-2 pb-3 space-y-1">
+          <a href="#" class="block px-3 py-2 text-white hover:text-lightBlue transition-all duration-200">Payments</a>
+          <a href="#" class="block px-3 py-2 text-white hover:text-lightBlue transition-all duration-200">Banking</a>
+          <a href="#" class="block px-3 py-2 text-white hover:text-lightBlue transition-all duration-200">Corporate Card</a>
+          <a href="#" class="block px-3 py-2 text-white hover:text-lightBlue transition-all duration-200">Payroll</a>
+          <a href="#" class="block px-3 py-2 text-white hover:text-lightBlue transition-all duration-200">Resources</a>
+          <a href="#" class="block px-3 py-2 text-white hover:text-lightBlue transition-all duration-200">Support</a>
+          <a href="#" class="block px-3 py-2 text-white hover:text-lightBlue transition-all duration-200">Pricing</a>
+        </div>
+        <div class="px-4 py-3 border-t border-gray-600 space-y-2">
+          <button class="w-full py-3 px-5 border border-lightBlue text-sm font-bold rounded-sm text-white">
+            Log in
+          </button>
+          <button class="w-full flex justify-center items-center text-lightBlue300 bg-white text-sm py-3 px-4 rounded-sm font-bold border transition-all duration-200 hover:text-lightBlue500">
+            Sign Up
+            <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+              <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
       </nav>
 
       <!--Hero Section-->
       <section class="relative bg-deepBlue">
         <div
-          class="flex mx-auto max-w-[1080px] w-10/12 flex-row justify-between items-center"
+          class="flex mx-auto max-w-[1080px] w-11/12 flex-col md:flex-row justify-between items-center px-4 py-8 md:py-12"
         >
           <!--left part-->
-          <div class="space-y-8">
+          <div class="space-y-6 md:space-y-8 text-center md:text-left max-w-full md:max-w-[50%]">
             <h1
-              class="text-white font-mullish font-bold text-[40px] leading-[1.2]"
+              class="text-white font-mullish font-bold text-2xl md:text-3xl lg:text-[40px] leading-[1.2]"
             >
               Power your finance, grow your business
             </h1>
-            <div class="w-6 h-1 bg-greenLight"></div>
-            <p class="text-white font-mullish text-[18px] leading-7 opacity-70">
+            <div class="w-6 h-1 bg-greenLight mx-auto md:mx-0"></div>
+            <p class="text-white font-mullish text-base md:text-[18px] leading-6 md:leading-7 opacity-70">
               Accept payments from customers, Automate payouts to vendors &
               employees. Never run out of working capital.
             </p>
             <button
-              class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
+              class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-3 px-6 md:py-[14px] md:px-[18px]"
             >
               Sign Up Now
             </button>
@@ -197,107 +223,107 @@
           <!--right part-->
           <img
             src="./Images/hero-illustration.jpg"
-            alt=""
-            class="max-w-[680px] w-full"
+            alt="Hero Illustration"
+            class="max-w-full md:max-w-[50%] lg:max-w-[680px] w-full mt-8 md:mt-0"
           />
         </div>
         <!--shape part-->
-        <div class="w-[103%] absolute left-0 right-0">
+        <div class="w-full absolute left-0 right-0">
           <img
-            src="./images/hero-shape.svg"
-            alt=""
+            src="./Images/hero-shape.svg"
+            alt="Hero Shape"
             class="w-full object-fill"
           />
         </div>
       </section>
 
       <!--feature section - 1-->
-      <section class="relative mt-[190px] overflow-hidden">
-      <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy" 
+      <section class="relative mt-24 md:mt-[190px] overflow-hidden">
+      <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" 
       width="233"
       height="167"
-      class="absolute -top-[8rem] left-[10rem] inline-block -z-10">
+      class="absolute -top-[8rem] left-[10rem] -z-10 hidden md:block">
 
-      <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy"
+      <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy"
       width="233"
       height="167"
-      class="absolute top-[3rem] right-0 inline-block rotate-180">
+      class="absolute top-[3rem] right-0 rotate-180 hidden md:block">
 
-      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 px-4">
           <!--heading-->
-          <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
+          <h2 class="font-mullish text-center text-xl md:text-2xl leading-[1.2] font-extrabold hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
           
-          <h2 class="font-mullish text-center text-5xl leading-[1.2] font-extrabold  md:hidden">Explore Razorpay Payment Suite</h2>
+          <h2 class="font-mullish text-center text-3xl md:text-5xl leading-[1.2] font-extrabold md:hidden">Explore Razorpay Payment Suite</h2>
 
 
           <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
           <!--content box-->
-          <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border">
+          <div class="w-full min-h-[400px] md:min-h-[520px] bg-white flex flex-col md:flex-row rounded-md relative p-6 md:p-10 py-8 md:py-12 border">
               <!--left section-->
-              <div class="flex flex-col justify-between  w-full">
-                  <h3 class="font-mullish text-[28px] leading-10 font-bold max-w-[500px]">
+              <div class="flex flex-col justify-between w-full md:w-[60%] lg:w-[50%]">
+                  <h3 class="font-mullish text-xl md:text-[28px] leading-8 md:leading-10 font-bold max-w-[500px] mb-6 md:mb-0">
                       Supercharge your business with the all‑powerful
                       <span class="text-lightBlue">Payment Gateway</span>
                   </h3>
-                  <ul class="space-y-2">
-                      <li class="font-mullish flex items-center space-x-2">
+                  <ul class="space-y-3 md:space-y-2 my-6 md:my-0">
+                      <li class="font-mullish flex items-center space-x-2 text-sm md:text-base">
                           
-                          <i data-feather="check" class="text-greenLight"></i>
+                          <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
                           <span>100+ Payment Methods</span>
                       </li>
-                      <li class="font-mullish flex items-center space-x-2">
-                          <i data-feather="check" class="text-greenLight"></i>
+                      <li class="font-mullish flex items-center space-x-2 text-sm md:text-base">
+                          <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
                           <span> Industry Leading Success Rate </span>
                       </li>
-                      <li class="font-mullish flex items-center space-x-2">
-                          <i data-feather="check" class="text-greenLight"></i>
+                      <li class="font-mullish flex items-center space-x-2 text-sm md:text-base">
+                          <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
                           <span> Superior Checkout Experience </span>
                       </li>
-                      <li class="font-mullish flex items-center space-x-2">
-                          <i data-feather="check" class="text-greenLight"></i>
+                      <li class="font-mullish flex items-center space-x-2 text-sm md:text-base">
+                          <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
                           <span> Easy to Integrate </span>
                       </li>
-                      <li class="font-mullish flex items-center space-x-2">
-                          <i data-feather="check" class="text-greenLight"></i>
+                      <li class="font-mullish flex items-center space-x-2 text-sm md:text-base">
+                          <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
                           <span> Instant Settlements from day 1 </span>
                       </li>
-                      <li class="font-mullish flex items-center space-x-2">
-                          <i data-feather="check" class="text-greenLight"></i>
+                      <li class="font-mullish flex items-center space-x-2 text-sm md:text-base">
+                          <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
                           <span> In-depth Reporting and Insights </span>
                       </li>
                   </ul>
 
               <!-- for button and hyperlink-->
-              <div class="flex flex-col-reverse md:flex-row items-center space-x-4 ">
+              <div class="flex flex-col-reverse md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mt-6 md:mt-0">
                   <button
-                  class="bg-lightBlue w-full md:w-fit text-white py-[14px] px-[18px] rounded-md
-                  font-mullish font-bold hover:bg-lightBlue500 translate-all duration-200 "
+                  class="bg-lightBlue w-full md:w-fit text-white py-3 px-6 md:py-[14px] md:px-[18px] rounded-md
+                  font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 text-sm md:text-base"
                   >Sign Up Now</button>
                   <!--hyperlink-->
-                  <div class="flex self-start md:items-center cursor-pointer group">
+                  <div class="flex self-center md:self-start md:items-center cursor-pointer group">
                       <a href="#" 
                       class="font-mullish font-bold text-lightBlue500 
-                      group-hover:text-grayBlue transition-all duration-200"
+                      group-hover:text-grayBlue transition-all duration-200 text-sm md:text-base"
                       >Know More</a>
                       <i
                       data-feather="chevron-right"
-                      class="w-5 h-5 text-lightBlue500 
+                      class="w-4 h-4 md:w-5 md:h-5 text-lightBlue500 
                       group-hover:text-grayBlue transition-all duration-200"></i>
                   </div>
               </div>
 
               </div>
-              <img src="./images/payment-suite.png" alt=""
-              class="max-w-[600px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block" >
+              <img src="./Images/payment-suite.png" alt="Payment Suite"
+              class="max-w-[400px] md:max-w-[600px] absolute right-0 bottom-0 hidden md:block lg:block w-[40%] lg:w-[50%]" >
           </div>
 
-        <div class="w-full grid grid-cols-3 gap-4 mt-10">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
             <!--Box1-->
             <div class="w-full min-h-[15rem] relative cursor-pointer">
-                  <img src="./images/payment-link-icon.svg" alt=""
-                  class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8]
-                  transition-all duration-200">
+                  <img src="./Images/payment-link-icon.svg" alt=""
+                  class="bg-lightBlue absolute right-3 top-3 w-10 h-10 md:w-12 md:h-12 rounded-full z-[8]
+                  transition-all duration-200 p-2 md:p-3">
 
                 <!--box shape-->
                   <svg
@@ -324,11 +350,11 @@
                   </svg>
 
                   <!--box -content -->
-                  <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 ">
+                  <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-4 md:pl-5 py-6 pr-6 md:pr-8 ">
                       <!--text part-->
                       <div>
-                          <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment Links</h3>
-                          <p class="font-mullish text-grayText mt-6">
+                          <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-lg md:text-[1.375rem]">Payment Links</h3>
+                          <p class="font-mullish text-grayText mt-4 md:mt-6 text-sm md:text-base">
                               Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
                       </div>
   
@@ -336,11 +362,11 @@
                       <div class="flex items-center cursor-pointer group">
                           <a href="#" 
                           class="font-mullish font-bold text-lightBlue500 
-                          group-hover:text-grayBlue transition-all duration-200"
+                          group-hover:text-grayBlue transition-all duration-200 text-sm md:text-base"
                           >Know More</a>
                           <i
                           data-feather="chevron-right"
-                          class="w-5 h-5 text-lightBlue500 
+                          class="w-4 h-4 md:w-5 md:h-5 text-lightBlue500 
                           group-hover:text-grayBlue transition-all duration-200"></i>
                       </div>
   
@@ -936,16 +962,16 @@
 
       <!--new features-->
       <section class="bg-white relative">
-        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 px-4">
           <img src="./Images/feature-section1-dottedrows.png" alt=""
-          class="absolute -top-[6rem] left-[300px] w-[233px] z-10">
+          class="absolute -top-[6rem] left-[300px] w-[233px] z-10 hidden lg:block">
           <img src="./Images/feature-section1-dottedrows.png" alt=""
-          class="absolute -top-[6rem] -right-[3.5rem] w-[233px] z-10">
+          class="absolute -top-[6rem] -right-[3.5rem] w-[233px] z-10 hidden lg:block">
 
-          <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[100] ">
+          <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-y-10 gap-x-4 relative z-[100]">
             <!--item1-->
-            <div class="relative flex items-center z-0">
-              <h2 class="text-deepBlueHead font-mullish font-extrabold text-4xl leading-[3.375rem]">New in the
+            <div class="relative flex items-center z-0 md:col-span-2 lg:col-span-1 text-center md:text-left">
+              <h2 class="text-deepBlueHead font-mullish font-extrabold text-2xl md:text-3xl lg:text-4xl leading-[2.5rem] md:leading-[3.375rem] mx-auto md:mx-0">New in the
                 <span class="text-lightBlue500">
                   Razorpay
                 </span> <br>
@@ -954,97 +980,97 @@
             </div>
             <!--card 1-->
             <div
-            class="p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
+            class="p-6 md:p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[250px] md:max-h-[300px] cursor-pointer
             bg-no-repeat hover:scale-105 transition-all duration-200
-            hover:bg-[url(/Images/instant-settlement-bghover.svg)] bg-white">
+            hover:bg-[url(./Images/instant-settlement-bghover.svg)] bg-white">
               
               <img src="./Images/razorpayXicon.svg" alt=""
-              class="w-10 h-10">
-              <h3 class="font-mullish text-lg font-bold pt-4"> Corporate Cards</h3>
+              class="w-8 h-8 md:w-10 md:h-10">
+              <h3 class="font-mullish text-base md:text-lg font-bold pt-3 md:pt-4"> Corporate Cards</h3>
               <p 
-              class="font-mullish py-3 text-grayText leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
+              class="font-mullish py-2 md:py-3 text-grayText leading-normal text-sm md:text-base">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
               <div class="flex flex-row items-center cursor-pointer group">
                 <a href=""
-                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200">Know More</a>
+                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200 text-sm md:text-base">Know More</a>
                 <i
                 data-feather="chevron-right"
-                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                class="w-4 h-4 md:w-5 md:h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
               </div>
             </div>
             <!--card 2-->
             <div
-            class="p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
+            class="p-6 md:p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[250px] md:max-h-[300px] cursor-pointer
             bg-no-repeat hover:scale-105 transition-all duration-200
-            hover:bg-[url(/Images/instant-settlement-bghover.svg)] bg-white">
+            hover:bg-[url(./Images/instant-settlement-bghover.svg)] bg-white">
               
               <img src="./Images/razorpayXicon.svg" alt=""
-              class="w-10 h-10">
-              <h3 class="font-mullish text-lg font-bold pt-4"> Corporate Cards</h3>
+              class="w-8 h-8 md:w-10 md:h-10">
+              <h3 class="font-mullish text-base md:text-lg font-bold pt-3 md:pt-4"> Corporate Cards</h3>
               <p 
-              class="font-mullish py-3 text-grayText leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
+              class="font-mullish py-2 md:py-3 text-grayText leading-normal text-sm md:text-base">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
               <div class="flex flex-row items-center cursor-pointer group">
                 <a href=""
-                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200">Know More</a>
+                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200 text-sm md:text-base">Know More</a>
                 <i
                 data-feather="chevron-right"
-                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                class="w-4 h-4 md:w-5 md:h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
               </div>
             </div>
             <!--card 3-->
             <div
-            class="p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
+            class="p-6 md:p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[250px] md:max-h-[300px] cursor-pointer
             bg-no-repeat hover:scale-105 transition-all duration-200
-            hover:bg-[url(/Images/instant-settlement-bghover.svg)] bg-white">
+            hover:bg-[url(./Images/instant-settlement-bghover.svg)] bg-white">
               
               <img src="./Images/razorpayXicon.svg" alt=""
-              class="w-10 h-10">
-              <h3 class="font-mullish text-lg font-bold pt-4"> Corporate Cards</h3>
+              class="w-8 h-8 md:w-10 md:h-10">
+              <h3 class="font-mullish text-base md:text-lg font-bold pt-3 md:pt-4"> Corporate Cards</h3>
               <p 
-              class="font-mullish py-3 text-grayText leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
+              class="font-mullish py-2 md:py-3 text-grayText leading-normal text-sm md:text-base">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
               <div class="flex flex-row items-center cursor-pointer group">
                 <a href=""
-                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200">Know More</a>
+                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200 text-sm md:text-base">Know More</a>
                 <i
                 data-feather="chevron-right"
-                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                class="w-4 h-4 md:w-5 md:h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
               </div>
             </div>
             <!--card 4-->
             <div
-            class="p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
+            class="p-6 md:p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[250px] md:max-h-[300px] cursor-pointer
             bg-no-repeat hover:scale-105 transition-all duration-200
-            hover:bg-[url(/Images/instant-settlement-bghover.svg)] bg-white">
+            hover:bg-[url(./Images/instant-settlement-bghover.svg)] bg-white">
               
               <img src="./Images/razorpayXicon.svg" alt=""
-              class="w-10 h-10">
-              <h3 class="font-mullish text-lg font-bold pt-4"> Corporate Cards</h3>
+              class="w-8 h-8 md:w-10 md:h-10">
+              <h3 class="font-mullish text-base md:text-lg font-bold pt-3 md:pt-4"> Corporate Cards</h3>
               <p 
-              class="font-mullish py-3 text-grayText leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
+              class="font-mullish py-2 md:py-3 text-grayText leading-normal text-sm md:text-base">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
               <div class="flex flex-row items-center cursor-pointer group">
                 <a href=""
-                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200">Know More</a>
+                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200 text-sm md:text-base">Know More</a>
                 <i
                 data-feather="chevron-right"
-                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                class="w-4 h-4 md:w-5 md:h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
               </div>
             </div>
             <!--card 5-->
             <div
-            class="p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
+            class="p-6 md:p-10 bg-[url(./Images/instant-settlement-bg.svg)] w-full max-h-[250px] md:max-h-[300px] cursor-pointer
             bg-no-repeat hover:scale-105 transition-all duration-200
-            hover:bg-[url(/Images/instant-settlement-bghover.svg)] bg-white">
+            hover:bg-[url(./Images/instant-settlement-bghover.svg)] bg-white">
               
               <img src="./Images/razorpayXicon.svg" alt=""
-              class="w-10 h-10">
-              <h3 class="font-mullish text-lg font-bold pt-4"> Corporate Cards</h3>
+              class="w-8 h-8 md:w-10 md:h-10">
+              <h3 class="font-mullish text-base md:text-lg font-bold pt-3 md:pt-4"> Corporate Cards</h3>
               <p 
-              class="font-mullish py-3 text-grayText leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
+              class="font-mullish py-2 md:py-3 text-grayText leading-normal text-sm md:text-base">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
               <div class="flex flex-row items-center cursor-pointer group">
                 <a href=""
-                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200">Know More</a>
+                class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue transition-all duration-200 text-sm md:text-base">Know More</a>
                 <i
                 data-feather="chevron-right"
-                class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
+                class="w-4 h-4 md:w-5 md:h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"></i>
               </div>
             </div>
           </div>
@@ -1053,60 +1079,60 @@
 
       <!--core feature-->
       <section class="w-full bg-[url(./Images/core-features-sectionBg.svg)] bg-no-repeat bg-cover mt-14 relative corefeaturesection">
-        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
-          <h2 class="font-mullish font-bold text-2xl text-center text-white">Features</h2>
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 px-4">
+          <h2 class="font-mullish font-bold text-xl md:text-2xl text-center text-white">Features</h2>
           <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
           <p
-          class="font-mullish text-centermax-w-[450px] text-white mx-auto">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
+          class="font-mullish text-center max-w-[450px] text-white mx-auto text-sm md:text-base">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
 
-          <div class="grid grid-cols-4 gap-[2rem] mt-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-[2rem] mt-8">
             <!--card-1-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
             <!--card-2-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
             <!--card-3-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
             <!--card-4-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
             <!--card-5-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
             <!--card-6-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
             <!--card-7-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
             <!--card-8-->
-            <div>
-              <img src="./Images/instant-activation-icon.svg" alt="">
-              <h3 class="font-mullish text-white text-lg font-bold my-4">Instant Activation</h3>
-              <p class="font-mullish text-white opacity-80">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+            <div class="text-center md:text-left">
+              <img src="./Images/instant-activation-icon.svg" alt="" class="mx-auto md:mx-0 w-12 h-12 md:w-auto md:h-auto">
+              <h3 class="font-mullish text-white text-base md:text-lg font-bold my-4">Instant Activation</h3>
+              <p class="font-mullish text-white opacity-80 text-sm md:text-base">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
             </div>
 
           </div>
@@ -1114,62 +1140,62 @@
       </section>
 
       <!--join section-->
-      <section class="bg-[#f5f8fe] relative pt-40 -mt-[200px] -z-[100]">
-        <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-row">
+      <section class="bg-[#f5f8fe] relative pt-20 md:pt-40 -mt-[100px] md:-mt-[200px] -z-[100]">
+        <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-col md:flex-row px-4">
           <!--left part-->
-          <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
-            <h3 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using Razorpay</h3>
-            <div class="w-6 h-1 bg-greenLight mb-10 my-4"></div>
-            <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
-            <p class="font-mullish mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you.</p>
+          <div class="flex flex-col justify-center max-w-full md:max-w-[calc(100%-500px)] mb-8 md:mb-0">
+            <h3 class="font-mullish font-bold text-xl md:text-2xl text-deepBlueHead text-center md:text-left">Join the 50,00,000+ businesses using Razorpay</h3>
+            <div class="w-6 h-1 bg-greenLight mb-6 md:mb-10 my-4 mx-auto md:mx-0"></div>
+            <p class="font-mullish opacity-80 text-sm md:text-base text-center md:text-left">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+            <p class="font-mullish mt-4 md:mt-6 opacity-80 text-sm md:text-base text-center md:text-left">Focus on your business while we handle the complexities of payments for you.</p>
           </div>
           <!--right part-->
-          <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+          <div class="h-[300px] md:h-[500px] w-full md:w-[500px] relative overflow-y-hidden mx-auto">
             <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
-            class="absolute w-full h-[150px] top-0 z-50"></div>
-            <img src="./Images/comanies.png" alt="" width="500px" class="absolute h-auto object-cover companiesList">
+            class="absolute w-full h-[100px] md:h-[150px] top-0 z-50"></div>
+            <img src="./Images/comanies.png" alt="" class="absolute h-auto object-cover companiesList w-full md:w-[500px]">
             <div style="background: linear-gradient(0deg, #f4f8ff, #fff0)"
-            class="absolute w-full h-[150px] bottom-0 z-50"></div>
+            class="absolute w-full h-[100px] md:h-[150px] bottom-0 z-50"></div>
           </div>
         </div>
       </section>
 
       <!--Testimonial Section-->
       <section class="relative">
-        <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
-          <img src="./Images/feature-section1-dottedrows.png" alt="" class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
-          <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead text-center">An Experience <br/>People Love to Talk About</h2>
+        <div class="w-11/12 max-w-[1300px] mx-auto relative py-12 md:py-20 px-4">
+          <img src="./Images/feature-section1-dottedrows.png" alt="" class="absolute w-[150px] md:w-[200px] top-[6rem] md:top-[8rem] left-[1rem] md:left-[2rem] -z-10 hidden md:block">
+          <h2 class="font-mullish font-extrabold text-xl md:text-2xl text-deepBlueHead text-center">An Experience <br/>People Love to Talk About</h2>
           <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
         
         <!--Left Button-->
-        <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 flex justify-center items-center">
+        <button class="w-[60px] h-[60px] md:w-[100px] md:h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 justify-center items-center hidden md:flex">
           <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
             <i
-            data-feather="chevron-right"
-            class="stroke-[5px] w-6 h-6 md:h-10 text-gray-400"></i>
+            data-feather="chevron-left"
+            class="stroke-[5px] w-4 h-4 md:w-6 md:h-6 lg:h-10 text-gray-400"></i>
           </div>
         </button>
         <!--right Button-->
-        <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 flex justify-center items-center">
+        <button class="w-[60px] h-[60px] md:w-[100px] md:h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 justify-center items-center hidden md:flex">
           <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
             <i
             data-feather="chevron-right"
-            class="stroke-[5px] w-6 h-6 md:h-10 text-gray-400"></i>
+            class="stroke-[5px] w-4 h-4 md:w-6 md:h-6 lg:h-10 text-gray-400"></i>
           </div>
         </button>
 
         <!--main content-->
-        <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
+        <div class="flex flex-col md:flex-row max-w-[960px] items-center mx-auto my-12 md:my-20 space-y-8 md:space-y-0 md:space-x-[10rem]">
           <!--left part-->
-          <img src="./Images/testimonial.jpg" alt="" height="320px" width="320px"  class="rounded-xl">
+          <img src="./Images/testimonial.jpg" alt="" class="w-[250px] h-[250px] md:w-[320px] md:h-[320px] rounded-xl mx-auto">
           <!--right part-->
-          <div class="max-w-[400px] flex flex-col">
-            <img src="./Images/quotes.svg" alt="" width="35px" height="40px" class="-mb-2 xl:order-1">
-            <p class="font-mullish text-3xl font-extralight xl:order-1">Readymade Closed Wallet Solution For Quick Refunds</p>
-            <a href="#" class="text-grayText italic underline xl:order-1">Learn More</a>
-            <p class="font-mullish font-extrabold text-2xl -order-1 xl:order-1">Lorem Ipsum</p>
-            <p class="font-mullish font-medium xl:order-1">CEO, XYZ Engineering Company</p>
-            <img src="./Images/fake-company-logo.png" alt="" width="80px" height="40px" class=" xl:order-1">
+          <div class="max-w-[400px] flex flex-col text-center md:text-left">
+            <img src="./Images/quotes.svg" alt="" width="35px" height="40px" class="-mb-2 xl:order-1 mx-auto md:mx-0">
+            <p class="font-mullish text-xl md:text-3xl font-extralight xl:order-1">Readymade Closed Wallet Solution For Quick Refunds</p>
+            <a href="#" class="text-grayText italic underline xl:order-1 text-sm md:text-base">Learn More</a>
+            <p class="font-mullish font-extrabold text-xl md:text-2xl -order-1 xl:order-1">Lorem Ipsum</p>
+            <p class="font-mullish font-medium xl:order-1 text-sm md:text-base">CEO, XYZ Engineering Company</p>
+            <img src="./Images/fake-company-logo.png" alt="" width="80px" height="40px" class="xl:order-1 mx-auto md:mx-0">
           </div>
         </div>
         <!--6 dots div-->
@@ -1185,42 +1211,42 @@
       </section>
 
       <!--CTA-->
-      <section class="bg-[url(/Images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection min-h-[510px]">
+      <section class="bg-[url(./Images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection min-h-[400px] md:min-h-[510px]">
         <!--main content box-->
-        <div class="w-11/12 max-w-[1080px] relative flex flex-row items-center mx-auto justify-between space-x-20 pt-16">
+        <div class="w-11/12 max-w-[1080px] relative flex flex-col md:flex-row items-center mx-auto justify-between md:space-x-20 pt-12 md:pt-16 px-4">
           
           <!--left part-->
-          <div class="flex flex-col gap-5 mt-12 max-w-[600px]">
-            <h2 class="font-mullish font-bold text-2xl text-white">Supercharge your business with Razorpay</h2>
-            <div class="w-6 h-1 bg-greenLight"></div>
-            <p class="font-mullish text-white">Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.</p>
+          <div class="flex flex-col gap-4 md:gap-5 mt-8 md:mt-12 max-w-full md:max-w-[600px] text-center md:text-left">
+            <h2 class="font-mullish font-bold text-xl md:text-2xl text-white">Supercharge your business with Razorpay</h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto md:mx-0"></div>
+            <p class="font-mullish text-white text-sm md:text-base">Sign up now to experience the future of payments and offer <br class="hidden md:block"> your customers the best checkout experience.</p>
             
-            <ul class="flex flex-row flex-wrap gap-x-11 text-white gap-y-3">
-              <li class="font-mullish text-white flex flex-row ">
-                <i data-feather="check" class="text-greenLight"></i>
-                <span>Quick Onboarding</span>
+            <ul class="flex flex-col md:flex-row md:flex-wrap gap-x-8 md:gap-x-11 text-white gap-y-3 items-center md:items-start">
+              <li class="font-mullish text-white flex flex-row items-center space-x-2">
+                <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
+                <span class="text-sm md:text-base">Quick Onboarding</span>
               </li>
-              <li class="font-mullish text-white flex flex-row ">
-                <i data-feather="check" class="text-greenLight"></i>
-                <span>Access to entire product suite</span>
+              <li class="font-mullish text-white flex flex-row items-center space-x-2">
+                <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
+                <span class="text-sm md:text-base">Access to entire product suite</span>
               </li >
-              <li class="font-mullish text-white flex flex-row ">
-                <i data-feather="check" class="text-greenLight"></i>
-                <span>API access</span>
+              <li class="font-mullish text-white flex flex-row items-center space-x-2">
+                <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
+                <span class="text-sm md:text-base">API access</span>
               </li>
-              <li class="font-mullish text-white flex flex-row ">
-                <i data-feather="check" class="text-greenLight"></i>
-                <span>24x7 support</span>
+              <li class="font-mullish text-white flex flex-row items-center space-x-2">
+                <i data-feather="check" class="text-greenLight w-4 h-4 md:w-5 md:h-5"></i>
+                <span class="text-sm md:text-base">24x7 support</span>
               </li>
             </ul>
             
             <button
-            class="min-w-[32px] font-mullish text-sm font-bold bg-white text-lightBlue300 border flex
-            rounded-sm items-center hover:text-lightBlue500 transition-all duration-200 py-3 px-4 place-self-start">Sign Up
+            class="min-w-[32px] font-mullish text-xs md:text-sm font-bold bg-white text-lightBlue300 border flex
+            rounded-sm items-center hover:text-lightBlue500 transition-all duration-200 py-2 px-3 md:py-3 md:px-4 place-self-center md:place-self-start">Sign Up
             <svg
             viewBox="0 0 24 24"
             focusable="false"
-            class="w-[14px] h-[14px] ml-3">
+            class="w-[12px] h-[12px] md:w-[14px] md:h-[14px] ml-2 md:ml-3">
             <path
             fill="currentColor"
             d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
@@ -1229,7 +1255,7 @@
           </div>
           
           <!--right side wali image-->
-          <img src="./Images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3 hidden lg:block">
+          <img src="./Images/ctaImg.svg" alt="" class="w-[180px] h-[200px] md:w-[240px] md:h-[282px] mt-8 md:mt-16 pt-3 hidden md:block">
         </div>
       </section>
     </div>
@@ -1903,6 +1929,19 @@
         </div>
       </div>
     </div>
+  </footer>
+  
+  <script>
+    feather.replace();
+    
+    // Mobile menu toggle functionality
+    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
   </footer>
     <script>
         feather.replace();
